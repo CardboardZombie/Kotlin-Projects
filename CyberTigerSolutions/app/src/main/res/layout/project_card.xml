@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/grey"
     android:orientation="horizontal"
-    android:padding="5pt">
+    android:padding="2pt">
 
     <LinearLayout
+        android:id="@+id/cardLayout"
         android:layout_width="match_parent"
         android:layout_height="50pt"
         android:background="@drawable/background"
@@ -15,18 +17,18 @@
 
         <ImageView
             android:id="@+id/cardIcon"
-            android:layout_width="30dp"
+            android:layout_width="20sp"
             android:layout_height="match_parent"
             android:layout_margin="2pt"
-            android:layout_marginBottom="5pt"
             android:layout_weight="1"
             android:contentDescription="Icon of the Project Experience"
-            app:srcCompat="@drawable/ggulivrr" />
+            app:srcCompat="@drawable/ggulivrricon" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginTop="11pt"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -35,13 +37,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Hello To You."
+                android:textAlignment="textStart"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/cardSubName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Hello World" />
+                android:text="Hello World"
+                android:textAlignment="textStart" />
         </LinearLayout>
 
     </LinearLayout>

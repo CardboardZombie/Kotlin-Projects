@@ -5,4 +5,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="white">#ffffff</color>
     <color name="grey">#D5D4D4D4</color>
+    <color name="work">#8bc34a</color>
+    <color name="edu">#dcedc8</color>
+    <color name="proj">#ff9800</color>
+
 </resources>
